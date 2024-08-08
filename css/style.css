@@ -1,4 +1,68 @@
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('/fonts/Roboto-Medium.eot');
+    src: url('/fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Roboto-Medium.woff') format('woff'),
+         url('/fonts/Roboto-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background-color: #fff;
+    height: 72px;
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+
+}
+
+.head > .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 119px;
+    justify-content: flex-start;
+}
+
+.top-menu {
+    width: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: unset;
+}
+
+.sign-in {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    width: 78px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in > div {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 13px;
+    color: #1d1d1d;
+}
+
+.basket img{
+    width: 20px;
 }
