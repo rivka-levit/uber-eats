@@ -35,11 +35,10 @@
 }
 
 .top-menu {
-    width: 10%;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .top-menu a {
@@ -63,6 +62,28 @@
     color: #1d1d1d;
 }
 
+.basket {
+    margin-left: 27px;
+}
+
 .basket img{
     width: 20px;
+}
+
+
+/* ------------- Mobile phones ------------- */
+
+@media  screen and (max-width: 767px) {
+    .basket {
+        display: none;
+    }
+}
+
+
+/* ---------------- Tablets ---------------- */
+
+@media  screen and (max-width: 991px) {
+    .basket {
+        margin-left: 16px;
+    }
 }
