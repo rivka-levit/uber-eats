@@ -41,6 +41,7 @@
 
 .logo {
     width: 119px;
+    margin-top: 3px;
     justify-content: flex-start;
 }
 
@@ -104,6 +105,17 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #979797;
+}
+
+.restaurants {
+    margin-top: 56px;
+}
+
+.restaurants h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1d1d1d;
 }
 
 
