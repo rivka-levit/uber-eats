@@ -111,6 +111,10 @@
     margin-top: 56px;
 }
 
+.restaurants a {
+    text-decoration: none;
+}
+
 .restaurants h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
@@ -118,6 +122,47 @@
     color: #1d1d1d;
 }
 
+.card {
+    margin-top: 16px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    margin-top: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1d1d1d;
+}
+
+.categories {
+    margin-top: 8px;
+}
+
+.index, .category_item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.category_item::before {
+  content: "\2022";
+  display: inline-block;
+  font-size: 16px;
+  width: 0.6em;
+}
+
+.time {
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1d1d1d;
+}
 
 /* ------------- Mobile phones ------------- */
 
