@@ -165,6 +165,17 @@
     color: #1d1d1d;
 }
 
+footer {
+    min-height: 552px;
+    margin-top: 80px;
+    padding-top: 56px;
+    background-color: #262626;
+}
+
+footer .logo img {
+    width: 191px;
+}
+
 /* ------------- Mobile phones ------------- */
 
 @media  screen and (max-width: 767px) {
