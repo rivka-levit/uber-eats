@@ -225,6 +225,15 @@ footer select:hover {
     color: #49a144;
 }
 
+.social-media {
+    width: 92px;
+    margin-top: 17px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
 /* ------------- Mobile phones ------------- */
 
 @media  screen and (max-width: 767px) {
