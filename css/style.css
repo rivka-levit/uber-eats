@@ -170,10 +170,59 @@ footer {
     margin-top: 80px;
     padding-top: 56px;
     background-color: #262626;
+    font-size: 13px;
 }
 
 footer .logo img {
     width: 191px;
+}
+
+.footer_info::before {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid #979797;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer_info .row {
+    padding-top: 32px;
+}
+
+footer select {
+    /*box-sizing: unset;*/
+    min-width: 227px;
+    min-height: 40px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #3B3B3B;
+    padding: .2em .5em .2em 2.5em;
+    background-image: url(/img/icons/lang_world.svg);
+	background-repeat: no-repeat;
+	background-size: 1em auto;
+	background-position: 1em center;
+    /*transition: all 0.1s ease-in;*/
+}
+
+footer select:focus {
+    outline: none !important;
+}
+
+footer select:hover {
+    border: 1px solid #979797 !important;
+}
+
+.uber-tag {
+    margin-top: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.uber-tag > span {
+    color: #49a144;
 }
 
 /* ------------- Mobile phones ------------- */
