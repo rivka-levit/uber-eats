@@ -183,7 +183,8 @@ footer .logo img {
 }
 
 .footer_info::before,
-.apps::before {
+.apps::before,
+.terms::before {
     display: inline-block;
     content: "";
     border-top: 1px solid #979797;
@@ -242,7 +243,8 @@ footer ul {
     list-style-type: none;
 }
 
-footer ul li {
+footer ul li,
+.terms {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     color: #ffffff;
@@ -269,6 +271,10 @@ img.apple {
 
 img.google {
     width: 135px;
+}
+
+.terms .row {
+    padding: 40px 0;
 }
 
 /* ------------- Mobile phones ------------- */
