@@ -57,11 +57,6 @@ a {
     justify-content: flex-end;
 }
 
-/*.top-menu a {*/
-/*    text-decoration: none;*/
-/*    color: unset;*/
-/*}*/
-
 .sign-in {
     border: 1px solid #E0E0E0;
     border-radius: 4px;
@@ -115,10 +110,6 @@ a {
 .restaurants {
     margin-top: 56px;
 }
-
-/*.restaurants a {*/
-/*    text-decoration: none;*/
-/*}*/
 
 .restaurants h2 {
     font-family: 'Roboto', sans-serif;
@@ -176,6 +167,7 @@ footer {
     padding-top: 56px;
     background-color: #262626;
     font-size: 13px;
+    position: relative;
 }
 
 footer .logo img {
@@ -277,11 +269,34 @@ img.google {
     padding: 40px 0;
 }
 
+.arrow-bottom {
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+    font-size: 32px;
+    position: absolute;
+    bottom: 24px;
+    right: 16px;
+    background-color: #59bd5a;
+    padding: 18px 31px;
+}
+
 /* ------------- Mobile phones ------------- */
 
 @media  screen and (max-width: 767px) {
     .basket {
         display: none;
+    }
+    .arrow-bottom {
+        width: 64px;
+        height: 64px;
+        padding: 10px 24px;
+    }
+    footer ul li:first-child {
+        margin-top: 23px;
+    }
+    .terms .row div:not(:first-child) {
+        margin-top: 1.6rem;
     }
 }
 
