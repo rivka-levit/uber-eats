@@ -24,6 +24,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: unset;
+}
+
 .head {
     background-color: #fff;
     height: 72px;
@@ -52,10 +57,10 @@
     justify-content: flex-end;
 }
 
-.top-menu a {
-    text-decoration: none;
-    color: unset;
-}
+/*.top-menu a {*/
+/*    text-decoration: none;*/
+/*    color: unset;*/
+/*}*/
 
 .sign-in {
     border: 1px solid #E0E0E0;
@@ -111,9 +116,9 @@
     margin-top: 56px;
 }
 
-.restaurants a {
-    text-decoration: none;
-}
+/*.restaurants a {*/
+/*    text-decoration: none;*/
+/*}*/
 
 .restaurants h2 {
     font-family: 'Roboto', sans-serif;
@@ -172,6 +177,10 @@ footer {
     background-color: #262626;
     font-size: 13px;
 }
+
+/*footer a {*/
+/*    text-decoration: none;*/
+/*}*/
 
 footer .logo img {
     width: 191px;
@@ -232,6 +241,20 @@ footer select:hover {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-around;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+footer ul li:not(:first-child) {
+    margin-top: 23px;
 }
 
 /* ------------- Mobile phones ------------- */
