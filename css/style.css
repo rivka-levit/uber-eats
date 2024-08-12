@@ -290,6 +290,20 @@ img.google {
     padding: 18px 31px;
 }
 
+.rest-name {
+    height: 364px;
+    padding-top: 80px;
+    background-image: url("/img/bg_rest_top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.rest-name .row div {
+    background-color: #ffffff;
+    height: 204px;
+}
+
 /* ------------- Mobile phones ------------- */
 
 @media  screen and (max-width: 767px) {
