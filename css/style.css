@@ -121,7 +121,12 @@ a {
 .card {
     margin-top: 16px;
     padding-bottom: 20px;
+    /*transition: all 0.2s ease-in;*/
 }
+
+/*.card:hover {*/
+/*    box-shadow: 0 0 16px 3px rgba(38, 38, 38, 0.16);*/
+/*}*/
 
 .card img {
     width: 100%;
@@ -179,7 +184,7 @@ footer .logo img {
 .terms::before {
     display: inline-block;
     content: "";
-    border-top: 1px solid #979797;
+    border-top: 1px solid rgba(151, 151, 151, .5);
     width: 100%;
     margin-top: 40px;
 }
@@ -229,6 +234,10 @@ footer select:hover {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-around;
+}
+
+.social-media img:hover {
+    background-color: #646464;
 }
 
 footer ul {
