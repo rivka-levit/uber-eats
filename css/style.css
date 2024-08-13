@@ -376,6 +376,13 @@ img.google {
     padding-bottom: 80px;
 }
 
+.dishes h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #1d1d1d;
+}
+
 /* ------------- Mobile phones ------------- */
 
 @media  screen and (max-width: 767px) {
