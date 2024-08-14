@@ -383,6 +383,41 @@ img.google {
     color: #1d1d1d;
 }
 
+.snack {
+    height: 160px;
+    border: 1px solid rgba(117, 117, 117, .2);
+    border-radius: 3px;
+    padding-left: 16px;
+}
+
+.snack_image {
+    width: 170px;
+    height: 160px;
+    float: right;
+}
+
+.snack h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1d1d1d;
+    margin-top: 16px;
+    line-height: 24px;
+}
+
+.snack_description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #626262;
+    line-height: 21px;
+}
+
+.snack_price {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 15px;
+    color: #1d1d1d;
+    margin-top: 15%;
+}
+
 /* ------------- Mobile phones ------------- */
 
 @media  screen and (max-width: 767px) {
