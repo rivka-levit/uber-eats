@@ -298,7 +298,6 @@ img.google {
     background-color: #ffffff;
     height: 204px;
     padding: 38px 0;
-    /*padding: 38px 29px 38px 38px;*/
 }
 
 .rest-name h1 {
@@ -383,6 +382,10 @@ img.google {
     color: #1d1d1d;
 }
 
+.dishes .row {
+    margin-top: 32px;
+}
+
 .snack {
     height: 160px;
     border: 1px solid rgba(117, 117, 117, .2);
@@ -391,17 +394,26 @@ img.google {
 }
 
 .snack_image {
-    width: 170px;
-    height: 160px;
+    height: 100%;
+    margin-left: 16px;
     float: right;
 }
 
-.snack h2 {
+.snack_info {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.snack h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #1d1d1d;
-    margin-top: 16px;
     line-height: 24px;
+    display: block;
 }
 
 .snack_description {
@@ -409,13 +421,14 @@ img.google {
     font-size: 13px;
     color: #626262;
     line-height: 21px;
+    display: block;
+    margin-top: 4px;
 }
 
 .snack_price {
     font-family: 'Roboto Medium', sans-serif;
     font-size: 15px;
     color: #1d1d1d;
-    margin-top: 15%;
 }
 
 /* ------------- Mobile phones ------------- */
@@ -435,8 +448,35 @@ img.google {
     .terms .row div:not(:first-child) {
         margin-top: 1.6rem;
     }
+    .nav-dish-categories {
+        display: none;
+    }
     .dishes {
         padding-bottom: 40px;
+    }
+    .dishes h2 {
+        text-align: center;
+    }
+    .dishes h2::after {
+        display: block;
+        content: "";
+        border-top: 1px solid #757575;
+        width: 13%;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+    .snack {
+        height: 102px;
+        padding-left: 0;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+    .snack_info {
+        padding-top: 0;
+    }
+    .snack h3 {
+        font-size: 14px;
     }
 }
 
