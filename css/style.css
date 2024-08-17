@@ -372,7 +372,7 @@ img.google {
 
 .dishes {
     padding-top: 56px;
-    padding-bottom: 80px;
+    /*padding-bottom: 80px;*/
 }
 
 .dishes h2 {
@@ -382,29 +382,16 @@ img.google {
     color: #1d1d1d;
 }
 
-/*.dishes .row {*/
-/*    margin-top: 32px;*/
-/*}*/
-
 .snack {
+    margin-top: 40px;
     height: 160px;
     border: 1px solid rgba(117, 117, 117, .2);
     border-radius: 3px;
     padding-left: 16px;
 }
 
-.snack:first-child,
-.snack:nth-child(2) {
-    margin-top: 32px;
-}
-
-.snack:not(:first-child),
-.snack:not(:nth-child(2)) {
-    margin-top: 49px;
-}
-
 .snack_image {
-    height: 100%;
+    height: 160px;
     margin-left: 16px;
     float: right;
 }
@@ -461,9 +448,6 @@ img.google {
     .nav-dish-categories {
         display: none;
     }
-    .dishes {
-        padding-bottom: 40px;
-    }
     .dishes h2 {
         text-align: center;
     }
@@ -474,20 +458,19 @@ img.google {
         width: 13%;
         margin: 12px auto 0;
     }
-    .snack:not(:first-child),
-    .snack:not(:nth-child(2)) {
-        margin-top: 0;
+    .dishes .row {
+        margin-top: 27px;
     }
     .snack {
-        margin-top: 16px;
+        margin-top: 0;
         height: 102px;
         padding-left: 0;
         border-top: none;
         border-right: none;
         border-left: none;
     }
-    .snack:first-child {
-        margin-top: 43px;
+    .snack_image {
+        height: 102px;
     }
     .snack_info {
         padding-top: 0;
@@ -503,9 +486,6 @@ img.google {
 @media  screen and (max-width: 991px) {
     .basket {
         margin-left: 16px;
-    }
-    .dishes {
-        padding-bottom: 48px;
     }
     .snack {
         margin-top: 32px;
